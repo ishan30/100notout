@@ -1,0 +1,32 @@
+html,
+body {
+	height: 100%;
+}
+
+.col-header{
+	background-color: #e9ecef;
+	word-wrap: break-word;
+    height: 58px;
+}
+
+.header{
+	text-align: center;
+}
+
+.playerBusted{
+	text-decoration: line-through;
+	border: 1px solid red;
+}
+
+#gameContainer{
+	margin-bottom: 15px;
+}
+
+#resetGameSection {
+	text-align: center;
+}
+
+.gamer-row .gamer-name{
+	word-wrap: break-word;
+	height: auto;
+}
