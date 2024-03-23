@@ -41,7 +41,8 @@
 		<div class="input-group mb-3">
 		  <input type="text" class="form-control" placeholder="Enter player's name" v-model="newMemberName" v-on:keyup.enter="addMember">
 		  <div class="input-group-append">
-			<button type="button" class="btn btn-secondary" v-on:click="addMember">Add</button>
+			<button type="button" class="btn btn-primary" v-on:click="addMember">Add</button>
+			<button type="button" class="btn btn-secondary" style="margin-left: 5px;" v-on:click="resetScore">Reset Score</button>
 		  </div>
 		</div>
 	  </div>

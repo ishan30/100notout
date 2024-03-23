@@ -40,5 +40,12 @@ const app = new Vue({
 			this.gamers = [];
 			this.bustedPlayers.clear();
 		},
+		resetScore: function() {
+			this.gamers.forEach(gamer => {
+				gamer.totalScore = 0;
+				gamer.currentScore = 0;
+				gamer.isBusted = false;
+			});
+		}
 	}
 });
